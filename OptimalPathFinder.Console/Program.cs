@@ -54,7 +54,7 @@ while (true)
             default: return;
         }
 
-        //Здесо идет расчет пути
+        //Здесь идет расчет пути
         var result = pathFinder.GetOptimalPath(showplaceModels, timeLimit);
 
         //Далее вывод
